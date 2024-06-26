@@ -1,0 +1,87 @@
+body{
+    background-color:black;
+}
+.four{
+    background-image:url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+    height:210px;
+    width:200px;
+    margin-left:400px;
+    border-radius:10%;
+    color:rgb(146, 255, 12);
+    font-size:25px;
+    border:10px rgba(14, 174, 227, 0.889) solid;
+    border-top-style:groove;
+    margin-top: 150px;
+}
+#one{
+    color:rgb(170, 44, 44);
+}
+#two{
+    margin-left:350px;
+    height:2em;
+    width:7em;
+    border-radius:10%;
+    
+}
+#two{
+    width:9em;
+    height:3em;
+    border-radius:30em;
+    font-size:15px;
+    font-family:inherite;
+    border:none;
+    position:relative;
+    overflow: hidden;
+       z-index:1;
+    box-shadow:6px 6px 12px #c5c5c5,-6px -6px 12px #ffffff;
+}
+#two::before{
+    content:'';
+    width:0;
+    height:3em;
+    border-radius:30em;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:linear-gradient(to right,#d65307 0%,#2d109e 100%);
+    transition: .5s ease;
+    z-index:-1;
+}
+#two:hover::before{
+    width:9em;
+}
+#three{
+    margin-left:600px;
+    margin-top: 6px;
+    height:2em;
+    width:7em;
+    border-radius:10%;
+    
+}
+#three{
+    width:9em;
+    height:3em;
+    border-radius:30em;
+    font-size:15px;
+    font-family:inherite;
+    border:none;
+    position:relative;
+    overflow: hidden;
+       z-index:1;
+    box-shadow:6px 6px 12px #c5c5c5,-6px -6px 12px #ffffff;
+}
+#three::before{
+    content:'';
+    width:0;
+    height:3em;
+    border-radius:30em;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:linear-gradient(to right,#13c8bc 0%,#2d109e 100%);
+    transition: .5s ease;
+    z-index:-1;
+}
+#three:hover::before{
+    width:9em;
+}
